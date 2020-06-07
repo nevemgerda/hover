@@ -1,0 +1,23 @@
+body {
+    position: relative;
+}
+.flexbox {
+    margin: auto;
+    border:0;
+    position: absolute;
+    left:0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+div {
+    border: solid blueviolet 1px;
+    border-bottom:0;
+    width:200px;;
+}
+#final {
+    border-bottom:solid blueviolet 1px
+}
+div:hover {
+    background-color: chocolate;
+}
